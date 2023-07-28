@@ -3,10 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Backend</title>
   </head>
   <body>
-    <h1>Hey there!</h1>
-    <p>Hello <%=locals.name %></p>
+    <main>
+      <form action="/contact" method="post">
+        <h1>Contact Us</h1>
+        <input type="text" placeholder="Enter name" name="name" />
+        <input type="email" placeholder="Enter email" name="email" />
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
