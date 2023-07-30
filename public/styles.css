@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 main {
   background-color: rgb(255, 225, 220);
   height: 100vh;
@@ -26,7 +30,6 @@ form {
 }
 
 h1 {
-  font-family: sans-serif;
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -49,4 +52,10 @@ button {
   border: none;
   cursor: pointer;
   padding: 1rem 2rem;
+}
+
+.error {
+  color: red;
+  text-align: right;
+  font-size: 0.7rem;
 }
